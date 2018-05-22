@@ -38,7 +38,7 @@ A short description of the datasets content from the authors’ website:
 
 Class A corresponds to the specified execution of the exercise, while the other 4 classes correspond to common mistakes. Participants were supervised by an experienced weight lifter to make sure the execution complied to the manner they were supposed to simulate. The exercises were performed by six male participants aged between 20-28 years, with little weight lifting experience. We made sure that all participants could easily simulate the mistakes in a safe and controlled manner by using a relatively light dumbbell (1.25kg)."
 
-##b) Environment Preparation
+### b) Environment Preparation
   Here is the R libraries that are necessary for the complete analysis.
 
   *   library(knitr)
@@ -50,13 +50,13 @@ Class A corresponds to the specified execution of the exercise, while the other 
   *   library(corrplot)
   *   set.seed(12345)
   
-##c) Data Loading and Cleaning
+### c) Data Loading and Cleaning
 The next step is loading the dataset from the URL provided above. The training dataset is then partinioned in 2 to create a Training set (70% of the data) for the modeling process and a Test set (with the remaining 30%) for the validations. The testing dataset is not changed and will only be used for the quiz results generation.
 
 
 
 ```{r}
-#Upload the R libraries
+#### Upload the R libraries
 
 library(knitr)
 library(caret)
