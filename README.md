@@ -1,7 +1,7 @@
 
-# Title: "Practical Machine Learning Project"
-# Author: "Pradeep Pal"
-# Date: "May 22, 2018"
+## Title: "Practical Machine Learning Project"
+## Author: "Pradeep Pal"
+## Date: "May 22, 2018"
 
 ## I. Overview
 
